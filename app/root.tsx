@@ -5,10 +5,12 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useNavigation,
 } from "react-router";
 
 import type { Route } from "./+types/root";
 import "./app.css";
+import Loader from "./components/Loader";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -42,7 +44,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  const navigation = useNavigation();
+  const isLoading = navigation.state !== "idle";
+
+  return (
+    
+    <>
+    {isLoading && <Loader />  }
+    <Outlet />;
+    
+    </>
+
+  )
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

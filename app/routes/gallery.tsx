@@ -9,7 +9,7 @@ const images = [
   },
   {
     src: "/val-3.jpeg",
-    caption: "Us against the world 🌍",
+    caption: "Us, in peace with the world 🌍",
   },
   {
     src: "/val-4.jpeg",
@@ -21,11 +21,11 @@ const images = [
   },
   {
     src: "/val8.jpeg",
-    caption: "Forever looks good on us 💍",
+    caption: "My favorite ANGEL, Sleeping 💍",
   },
   {
     src: "/val9.jpeg",
-    caption: "Forever looks good on us 💍",
+    caption: "My heart's home 🏡",
   },
 ];
 
