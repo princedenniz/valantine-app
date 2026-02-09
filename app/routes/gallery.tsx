@@ -8,15 +8,23 @@ const images = [
     caption: "My favorite smile ❤️",
   },
   {
-    src: "/val1.jpeg",
+    src: "/val-3.jpeg",
     caption: "Us against the world 🌍",
   },
   {
-    src: "/val6.jpeg",
+    src: "/val-4.jpeg",
     caption: "She's my peace 🕊️",
   },
   {
-    src: "/val7.jpeg",
+    src: "/val-5.jpeg",
+    caption: "Forever looks good on us 💍",
+  },
+  {
+    src: "/val8.jpeg",
+    caption: "Forever looks good on us 💍",
+  },
+  {
+    src: "/val9.jpeg",
     caption: "Forever looks good on us 💍",
   },
 ];
